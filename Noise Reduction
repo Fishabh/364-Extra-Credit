@@ -1,0 +1,5 @@
+import control
+import numpy as np
+import matplotlib.pyplot as plt
+plt.rcParams['figure.figsize'] = (5, 5)
+s = control.tf([1, 0], [0, 1])
